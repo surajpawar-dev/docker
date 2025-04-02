@@ -1,4 +1,4 @@
-FROM openjdk:23
+FROM openjdk:17
 
 COPY target/welcome-api.jar  /usr/app/
 
